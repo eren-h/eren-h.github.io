@@ -1,0 +1,40 @@
+#cg-body{
+    padding: 5%;
+    margin: 0;
+    font-family: "Nunito";
+    background-color: lightblue;
+}
+
+#cg-img{
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+#cg-h1{
+    width: 100%;
+    text-align: center;
+    font-size: 200%;
+    margin-bottom: 1%;
+}
+
+#cg-p{
+    width: 100%;
+    text-align: center;
+    font-size: 150%;
+    color: navy;
+}
+
+.cg-button{
+    width: 20%;
+    height: 100px;
+    display: block;
+    background-color: purple;
+    color: white;
+    font-size: 30px;
+    font-family: "Nunito";
+    margin: 0 auto;
+    margin-bottom: 10px;
+}

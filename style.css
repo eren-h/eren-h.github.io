@@ -1,0 +1,117 @@
+* {
+    font-family: 'Mukta', sans-serif;
+}
+
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/heroImage.jpeg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+    font-family: 'Mukta', sans-serif;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(46, 46, 46, 0.5);
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+    
+}
+/* services section css */
+.servicesText.card{
+    height: 175px;
+    cursor: pointer;
+  }
+.card-text {
+    height: 100px;
+}
+.skillsIcon {
+    font-size: 75px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .skillsIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+.navbar a {
+    color: white;
+    padding: 10px;
+    border-bottom: 3px solid transparent;
+}
+
+.navbar a:hover {
+    color:white;
+    border-bottom: 3px solid white;
+}
+
+.navbar i {
+    color:white;
+}
+
+.navbar p {
+    font-size: 20px;
+    color: white;
+}
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
+/* spacing on all sections */
+#about, #services, #portfolio, #contact{
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+
+#explanation-page {
+    margin-top: 2rem;
+    padding-top: 2rem;
+}
+
+.back-button {
+    background-color: white; 
+    color: none; 
+    outline: none; 
+    border: none; 
+    padding: 5% 0 0 5%;
+}
+
+.back-button i {
+    font-size: 60px;
+}
